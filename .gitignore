@@ -1,6 +1,9 @@
 # Compiled class file
 *.class
 
+# Java commandline leftovers
+__*.java
+
 # Log file
 *.log
 

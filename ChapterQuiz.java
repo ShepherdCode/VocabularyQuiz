@@ -6,6 +6,11 @@ public class ChapterQuiz {
     String [] definitions ;
     final int PAUSE = 1000;   // milliseconds between word and definition
 
+    public static void main (String [] args) {
+        int ch = Integer.parseInt(args[0]);
+        popQuiz(ch);
+    }
+    
     public static void popQuiz (int chapter) {
         String filename = "ch"+chapter+".tsv";
         ChapterQuiz quiz = new ChapterQuiz (filename);
