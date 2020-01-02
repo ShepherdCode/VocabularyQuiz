@@ -28,6 +28,7 @@ public class ChapterQuiz {
         String oneWord, oneDef, guess, response;
         boolean more = true;
         Scanner scanner = new Scanner (System.in);
+        System.out.println("Pop Quiz based on "+this.filename);
         System.out.println("Type the word or X to exit.");
         while (more) {
             int index = generator.nextInt(numWords);
