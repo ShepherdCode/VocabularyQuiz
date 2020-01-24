@@ -1,5 +1,5 @@
 argument	 A value that you provide when you invoke a method. This value must have the same type as the corresponding parameter.
-invoke	 To cause a method to execute. Also known as “calling” a method.
+invoke	 To cause a method to execute. Also known as calling a method.
 parameter	 A piece of information that a method requires before it can run. Parameters are variables so they contain values and have types.
 flow of execution	 The order in which Java executes methods and statements. It may not necessarily be from top to bottom, left to right.
 parameter passing	 The process of assigning an argument value to a parameter variable.
