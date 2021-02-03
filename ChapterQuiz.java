@@ -30,6 +30,8 @@ public class ChapterQuiz {
     public void wordQuiz () {
         int numWords = words.length;
         Random generator = new Random ();
+        long time = System.currentTimeMillis();
+        generator.setSeed(time);
         String oneWord, oneDef, guess, response;
         boolean more = true;
         Scanner scanner = new Scanner (System.in);
